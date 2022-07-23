@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #f0f5f7;
+}
+
+body .main {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4rem;
+}
+
+body .main .container .title {
+  text-transform: capitalize;
+  font-family: "Ramabhadra", sans-serif;
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: #383333;
+}
+
+body .main .container .underlinediv {
+  width: 14%;
+  height: 4px;
+  background-color: #70a5e0;
+  margin-top: -5px;
+}
+
+body .main .container .wrapper {
+  margin-top: 3.8rem;
+}
+
+body .main .author {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+body .main .author .authorname {
+  color: #5481e2;
+}
+
+body section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section .mainwrapper:hover {
+  -webkit-box-shadow: 0px 2px 12px 0px #b6b5b5;
+          box-shadow: 0px 2px 12px 0px #b6b5b5;
+}
+
+body section .mainwrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 4px 4px 0px 0px;
+  width: 570px;
+  margin-bottom: 2rem;
+  -webkit-box-shadow: 0px 2px 12px 0px #cfcece;
+          box-shadow: 0px 2px 12px 0px #cfcece;
+}
+
+body section .mainwrapper .image {
+  width: 570px;
+  height: 280px;
+  background-size: cover;
+  border-radius: 4px 4px 0px 0px;
+}
+
+body section .mainwrapper .mainwrapper2 {
+  padding: 1.5rem 2rem 1rem 2rem;
+  background-color: white;
+}
+
+body section .mainwrapper .mainwrapper2 .wrapper2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body section .mainwrapper .mainwrapper2 .wrapper2 .wrappertitle {
+  font-size: 14px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+body section .mainwrapper .mainwrapper2 .wrapper2 p {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Noto Sans", sans-serif;
+  padding: 2px 4px;
+  color: #49b1b1;
+  background-color: #eafafa;
+  letter-spacing: 2px;
+  border-radius: 4px;
+}
+
+body section .mainwrapper .mainwrapper2 .descriptionwrapper {
+  padding: 1rem 0rem 0.5rem 0rem;
+}
+
+body section .mainwrapper .mainwrapper2 .descriptionwrapper .description {
+  margin-top: 1rem;
+  font-size: 14px;
+  font-family: "Rubik", sans-serif;
+  color: #979494;
+  line-height: 1.5;
+  display: inline;
+}
+
+body section .mainwrapper .mainwrapper2 .descriptionwrapper .button2 {
+  margin-left: 5px;
+  display: inline;
+  border: none;
+  color: #0fc4c4;
+  background-color: white;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+body section .mainwrapper .mainwrapper2 .div2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+body section .mainwrapper .mainwrapper2 .div2 .button1 {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid red;
+  width: 35%;
+  height: 25px;
+  border-radius: 4px;
+  color: #df3434;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+body .endcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 4rem;
+}
+
+body .endcontainer h2 {
+  text-transform: capitalize;
+  font-family: "Ramabhadra", sans-serif;
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: #383333;
+}
+
+body .endcontainer button {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid red;
+  width: 20%;
+  height: 25px;
+  border-radius: 4px;
+  color: #df3434;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */
